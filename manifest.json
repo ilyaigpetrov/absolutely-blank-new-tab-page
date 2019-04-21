@@ -1,8 +1,8 @@
 {
   "name": "ABSOLUTELY Blank New Tab Page",
-  "version": "0.0.0.2",
+  "version": "0.0.0.3",
   "chrome_url_overrides": {
-    "newtab": "./blank.html"
+    "newtab": "./blank.txt"
   },
   "manifest_version": 2
 }
