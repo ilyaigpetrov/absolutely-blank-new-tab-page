@@ -1,6 +1,8 @@
 {
-  "name": "ABSOLUTELY Blank New Tab Page",
-  "version": "0.0.0.3",
+  "name": "__MSG_extName__",
+  "description": "__MSG_extDesc__",
+  "version": "0.0.0.4",
+  "default_locale": "en",
   "chrome_url_overrides": {
     "newtab": "./blank.txt"
   },
