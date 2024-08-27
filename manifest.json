@@ -3,9 +3,11 @@
   "description": "__MSG_extDesc__",
   "version": "0.0.0.6",
   "default_locale": "en",
-  "content_security_policy": "script-src 'none'; object-src 'none'; default-src 'none'",
+  "content_security_policy": {
+    "extension_pages": "script-src 'none'; object-src 'none'; default-src 'none'"
+  },
   "chrome_url_overrides": {
     "newtab": "./blank.txt"
   },
-  "manifest_version": 2
+  "manifest_version": 3
 }
