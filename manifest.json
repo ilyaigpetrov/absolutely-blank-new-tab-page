@@ -1,4 +1,5 @@
 {
+  "manifest_version": 3,
   "name": "__MSG_extName__",
   "description": "__MSG_extDesc__",
   "version": "0.0.0.6",
@@ -9,5 +10,7 @@
   "chrome_url_overrides": {
     "newtab": "./blank.txt"
   },
-  "manifest_version": 3
+  "icons": {
+    "128": "/icons/default-128.png"
+  }
 }
